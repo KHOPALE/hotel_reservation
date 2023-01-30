@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotal Reservation </title>
+</head>
+
+<body style="background-color: rgb(68, 197, 184);">
+    <img src="C:\Users\HP\Pictures\Saved Pictures\hotel.jpg" alt="hotel" width="1400" height="250">
+
+<h1><center>Welcome to Hotel Vaishnavi</center></h1>
+
+<form method="POST" action="/predict_charges">
+
+        <!-- <label>Booking_ID:</label>
+        <input type = "text" name = "Booking_ID">
+        </select>
+        <br>
+        <br> -->
+
+    
+        <label>no_of_adults:</label>
+        <input type = "text" name = "no_of_adults">
+        </select>
+        <br>
+        <br>
+
+<tr>
+         <label>no_of_children:</label>
+         <input type = "text" name = "no_of_children"></tr>
+         </select> 
+         <br>
+         <br>
+
+
+        <label>no_of_weekend_nights:</label>
+        <input type = "text" name = "no_of_weekend_nights">
+        </select>
+        <br>
+        <br>
+
+
+        <label>no_of_week_nights:</label>
+        <input type = "text" name = "no_of_week_nights">
+        </select>
+        <br>
+        <br>
+
+      
+        <label>type_of_meal_plan:</label>
+        <select name = "type_of_meal_plan">
+            <option value = "Meal Plan 1">Meal Plan 1</option>
+            <option value = "Meal Plan 2">Meal Plan 2</option>
+            <option value = "Meal Plan 3">Meal Plan 3</option>
+            <option value = "Not Selected">Not Selected</option>
+        </select>
+        <br>
+        <br>
+
+        
+        <label>required_car_parking_space:</label>
+        <input type = "text" name = "required_car_parking_space">
+        </select>
+        <br>
+        <br>
+
+
+        <label>room_type_reserved:</label>
+        <select name = "room_type_reserved">
+            <option value = "Room_Type 1">Room_Type 1</option>
+            <option value = "Room_Type 2">Room_Type 2</option>
+            <option value = "Room_Type 3">Room_Type 3</option>
+            <option value = "Room_Type 4">Room_Type 4</option>
+            <option value = "Room_Type 5">Room_Type 5</option>
+            <option value = "Room_Type 6">Room_Type 6</option>
+            <option value = "Room_Type 7">Room_Type 7</option>
+        </select>
+        <br>
+        <br>
+
+
+        <label>lead_time:</label>
+        <input type = "text" name = "lead_time">
+        </select>
+        <br>
+        <br>
+
+
+        <label>arrival_year:</label>
+        <input type = "text" name = "arrival_year">
+        </select>
+        <br>
+        <br>
+
+
+        <label>arrival_month:</label>
+        <input type = "text" name = "arrival_month">
+        </select>
+        <br>
+        <br>
+
+        <label>arrival_date:</label>
+        <input type = "text" name = "arrival_date">
+        </select>
+        <br>
+        <br>
+
+        <label>market_segment_type:</label>:</label>
+        <select name = "market_segment_type">
+            <option value = "Online">Online</option>
+            <option value = "Offline">Offline</option>
+            <option value = "Corporate">Corporate</option>
+            <option value = "Complementary">Complementary</option>
+            <option value = "Aviation">Aviation</option>
+        </select>
+        <br>
+        <br>
+
+
+        <label>repeated_guest:</label>
+        <input type = "text" name = "repeated_guest">
+        </select>
+
+        <!-- <label>Yes:</label> <input type = "radio" name= "repeated_guest" value = "        yes">
+        <label>No:</label> <input type = "radio" name= "repeated_guest" value = "         no"> -->
+        <br>
+        <br>
+
+
+        <label>no_of_previous_cancellations:</label>
+        <input type = "text" name = "no_of_previous_cancellations">
+        </select>
+        <br>
+        <br>
+
+
+        <label>no_of_previous_bookings_not_canceled:</label>
+        <input type = "text" name = "no_of_previous_bookings_not_canceled">
+        </select>
+        <br>
+        <br>
+
+
+        <label>avg_price_per_room:</label>
+        <input type = "text" name = "avg_price_per_room">
+        </select>
+        <br>
+        <br>
+
+
+
+        <label>no_of_special_requests:</label>
+        <input type = "text" name = "no_of_special_requests">
+        </select>
+        <br>
+        <br>
+
+        
+
+        <input type = "submit" value="SUBMIT">
+
+        <h2><strong> Hotal Reservation <b>{{ prediction }}<b></strong></h2>
+        <br>
+
+    </form>
+
+
+</body>
+</html>
