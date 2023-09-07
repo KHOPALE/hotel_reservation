@@ -13,7 +13,7 @@
 ### Data
 ### We use a dataset containing customer demographics and booking details for model training and testing.
 
-#Usage
+# Usage
 ### Clone the repository.
 ### Install dependencies.
 ### Run the prediction script.
